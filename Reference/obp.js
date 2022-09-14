@@ -16,6 +16,7 @@ function func(arg) {
 }
 
 console.log(func.toString())
+
 func.call({t: 1}, 2) // similar to apply (array like)
 let newFunc = func.bind({t: 2}, 32)
 newFunc()

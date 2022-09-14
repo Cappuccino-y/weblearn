@@ -2,32 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="table_sheet.css" >
     <title>Title</title>
+    <script>
+        function hello(){
+            document.querySelector('pre').innerHTML="hihi"
+        }
+    </script>
 </head>
 <body>
-<a href="https://www.hao123.com">hao123</a>
+<a href="try.xhtml">my page</a>
 <br>
-<img src="锁定键图示.jpg">
+<img src="锁定键图示.jpg" alt="cat" width="293" >
+
+
+
 <pre>My
     asd iphone</pre>
-<table border="1">
-    <tr>
+<table>
+    <thead>
+        <tr>
         <th>Month</th>
         <th>Savings</th>
-    </tr>
-    <tr>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
         <td>January</td>
         <td>$100</td>
-    </tr>
+        </tr>
+    </tbody>
 </table>
 <a href="https://www.hao123.com">hao123</a>
-<form action="form_action.asp" method="get">
-    First name: <input name="fname" type="text"/>
+<a href="https://www.baidu.com">baidu</a>
+<a href="https://www.google.com">google</a>
+<ul>
+    <li>
+        asdasdw
+    </li>
+    <li>qweqweqw
+    </li>
+</ul>
+
+<ol>
+    <p>
+        asdadwdqwd
+    </p>
+    <li>
+        asdas
+    </li>
+</ol>
+<form >
+    First name: <input placeholder="full name" name="fname" type="text"/>
     Last name: <input name="lname" type="text"/>
-    <input type="submit" value="Submit"/>
+    color?
+    <input name="color" type="radio" value="blue">Blue
+    <input name="color" type="radio" value="red">Red
+    <input type="submit" value="Submit">
 </form>
-<br/>
-<br/>
+<button onclick="hello()">
+    click me
+</button>
+
+
+
+<br>
+<br>
+
+<div>
+    <input name="country" list="countries" placeholder="Country">
+    <datalist id="countries">
+          <option value="China">
+          <option value="America">
+          <option value="UK">
+    </datalist>
+</div>
+
+<div id="container">
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+    <div>Demonstration for flexbox </div>
+</div>
+
 <select>
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>

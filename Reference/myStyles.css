@@ -14,5 +14,11 @@ h1 {
 }
 
 .shaded {
-    background: #d0d0ff;
+    border: 5px solid red;
+    font-family: Arial;
+    font-weight:bold;
+    padding: 20px;
+    margin: 30px;
+    width: 100px;
+    background-color:orange;
 }

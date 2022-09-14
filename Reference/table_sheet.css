@@ -1,0 +1,36 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 5px;
+    border: 1px solid black;
+}
+button:hover{
+   background-color: chocolate;
+}
+a[href="https://www.google.com"]{
+    color: green;
+}
+
+#container{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+#container > div{
+    margin: 20px;
+    padding: 20px;
+    width:200px;
+}
+
+/*@media (min-width: 600px){*/
+/*   body{*/
+/*       background-color: red;*/
+/*   }*/
+/*}*/
+/*@media (max-width: 599px){*/
+/*   body{*/
+/*       background-color: blue;*/
+/*   }*/
+/*}*/
